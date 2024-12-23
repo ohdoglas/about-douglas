@@ -1,4 +1,4 @@
-
+@import url(./variables.css);
 
 body, button, select, textarea {
     font-family: "Fira Code", serif;

@@ -1,0 +1,29 @@
+@import url(../../styles/variables.css);
+@import url(../../styles/reset.css);
+@import url(../../styles/global.css);
+
+.header_nav {
+    display: flex;
+}
+
+.header_right_nav {
+    position: absolute;
+    right: 0;
+}
+
+.header_left_nav {
+    position: absolute;
+    justify-content: left;
+    left: 0;
+}
+
+.header_menu_button,
+.header_contact_button {
+    width: 245px;
+    height: 64px;
+
+    background-color: var(--detailColor);
+    color: var(--fontColor);
+
+    font-size: 32px;
+}
