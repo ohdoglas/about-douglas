@@ -1,0 +1,63 @@
+@import url(../../styles/variables.css);
+@import url(../../styles/reset.css);
+@import url(../../styles/global.css);
+
+
+.footer_main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+
+    height: 232px;
+    background-color: var(--detailColor);
+
+    position: absolute;
+    z-index: 1000;
+    bottom: 0;
+    left: 0;
+
+    color: var(--fontColor);
+}
+
+.left_div {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.right_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.right_div div {
+    width: 34px;
+    height: 34px;
+    background-size: cover;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.img_instagram {
+    background-image: url('../../assets/icons/instagram.png');
+}
+
+.img_linkedin {
+    background-image: url('../../assets/icons/linkedin.png');
+}
+
+.img_github {
+    background-image: url('../../assets/icons/github.png');
+}
+
+.img_gmail {
+    background-image: url('../../assets/icons/gmail.png');
+}
+
+.img_discord {
+    background-image: url('../../assets/icons/discord.png');
+}

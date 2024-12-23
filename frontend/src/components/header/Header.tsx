@@ -5,7 +5,6 @@ import './Header.css';
 const Header: React.FC = () => {
     const navigate = useNavigate();
     return (
-        <body className="page-one">
             <header className="header_main">
                 <nav className="header_nav">
                     <div className="header_left_nav">
@@ -16,7 +15,6 @@ const Header: React.FC = () => {
                     </div>
                 </nav>
             </header>
-        </body>
     )
 }
 
